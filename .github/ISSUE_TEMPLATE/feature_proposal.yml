@@ -1,0 +1,25 @@
+name: Feature proposal
+description: Propose a capability, API, or architectural direction.
+title: "[Proposal] "
+labels:
+  - proposal
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem statement
+      description: What user or system problem should this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed approach
+      description: Keep this concrete. Mention API, storage, or operational implications.
+    validations:
+      required: true
+  - type: textarea
+    id: tradeoffs
+    attributes:
+      label: Tradeoffs and alternatives
+      description: What are the main costs, risks, or rejected options?
