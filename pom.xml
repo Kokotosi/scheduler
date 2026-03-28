@@ -22,7 +22,7 @@
         <maven.surefire.plugin.version>3.5.5</maven.surefire.plugin.version>
         <maven.enforcer.plugin.version>3.5.0</maven.enforcer.plugin.version>
         <jacoco.plugin.version>0.8.14</jacoco.plugin.version>
-        <spotless.plugin.version>2.43.0</spotless.plugin.version>
+        <spotless.plugin.version>3.4.0</spotless.plugin.version>
     </properties>
 
     <licenses>
